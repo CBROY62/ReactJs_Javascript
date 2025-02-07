@@ -1,0 +1,85 @@
+/* General styles */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Main container */
+  .main-section {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Heading styles */
+  .heading_name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .heading-Peragraph {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields */
+  .first-input,
+  .second-input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .first-input:focus,
+  .second-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button */
+  .calculate-button {
+    background: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: 0.3s;
+  }
+  
+  .calculate-button:hover {
+    background: #0056b3;
+  }
+  
+  /* Total amount section */
+  .total-amount-section {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Responsive */
+  @media (max-width: 400px) {
+    .main-section {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  
